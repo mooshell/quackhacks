@@ -14,6 +14,7 @@
 		371685DA2D985DAF0027D542 /* quackhacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371685D92D985DAF0027D542 /* quackhacksTests.swift */; };
 		371685E42D985DAF0027D542 /* quackhacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371685E32D985DAF0027D542 /* quackhacksUITests.swift */; };
 		371685E62D985DAF0027D542 /* quackhacksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371685E52D985DAF0027D542 /* quackhacksUITestsLaunchTests.swift */; };
+		371685F32D985F980027D542 /* map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371685F22D985F980027D542 /* map.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		371685DF2D985DAF0027D542 /* quackhacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quackhacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		371685E32D985DAF0027D542 /* quackhacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quackhacksUITests.swift; sourceTree = "<group>"; };
 		371685E52D985DAF0027D542 /* quackhacksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quackhacksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		371685F22D985F980027D542 /* map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				371685CA2D985DAD0027D542 /* ContentView.swift */,
 				371685CC2D985DAE0027D542 /* Assets.xcassets */,
 				371685CE2D985DAE0027D542 /* Preview Content */,
+				371685F22D985F980027D542 /* map.swift */,
 			);
 			path = quackhacks;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371685F32D985F980027D542 /* map.swift in Sources */,
 				371685CB2D985DAD0027D542 /* ContentView.swift in Sources */,
 				371685C92D985DAD0027D542 /* quackhacksApp.swift in Sources */,
 			);
