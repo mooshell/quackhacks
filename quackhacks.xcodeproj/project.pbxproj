@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		370A69982D9868D300E3F49A /* usersignin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370A69972D9868D300E3F49A /* usersignin.swift */; };
+		370A699A2D989EFD00E3F49A /* usercreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370A69992D989EFD00E3F49A /* usercreate.swift */; };
+		370A699E2D98A1B300E3F49A /* logincreated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370A699D2D98A1B300E3F49A /* logincreated.swift */; };
+		370A69A02D98A68500E3F49A /* Catergories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370A699F2D98A68500E3F49A /* Catergories.swift */; };
 		371685C92D985DAD0027D542 /* quackhacksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371685C82D985DAD0027D542 /* quackhacksApp.swift */; };
 		371685CB2D985DAD0027D542 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371685CA2D985DAD0027D542 /* ContentView.swift */; };
 		371685CD2D985DAE0027D542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371685CC2D985DAE0027D542 /* Assets.xcassets */; };
@@ -37,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		370A69972D9868D300E3F49A /* usersignin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usersignin.swift; sourceTree = "<group>"; };
+		370A69992D989EFD00E3F49A /* usercreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usercreate.swift; sourceTree = "<group>"; };
+		370A699D2D98A1B300E3F49A /* logincreated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logincreated.swift; sourceTree = "<group>"; };
+		370A699F2D98A68500E3F49A /* Catergories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catergories.swift; sourceTree = "<group>"; };
 		371685C52D985DAD0027D542 /* quackhacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quackhacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		371685C82D985DAD0027D542 /* quackhacksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quackhacksApp.swift; sourceTree = "<group>"; };
 		371685CA2D985DAD0027D542 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,10 +106,13 @@
 			children = (
 				371685C82D985DAD0027D542 /* quackhacksApp.swift */,
 				371685CA2D985DAD0027D542 /* ContentView.swift */,
+				371685F22D985F980027D542 /* map.swift */,
 				371685CC2D985DAE0027D542 /* Assets.xcassets */,
 				371685CE2D985DAE0027D542 /* Preview Content */,
-				371685F22D985F980027D542 /* map.swift */,
 				370A69972D9868D300E3F49A /* usersignin.swift */,
+				370A69992D989EFD00E3F49A /* usercreate.swift */,
+				370A699D2D98A1B300E3F49A /* logincreated.swift */,
+				370A699F2D98A68500E3F49A /* Catergories.swift */,
 			);
 			path = quackhacks;
 			sourceTree = "<group>";
@@ -267,6 +276,9 @@
 				371685CB2D985DAD0027D542 /* ContentView.swift in Sources */,
 				370A69982D9868D300E3F49A /* usersignin.swift in Sources */,
 				371685C92D985DAD0027D542 /* quackhacksApp.swift in Sources */,
+				370A699E2D98A1B300E3F49A /* logincreated.swift in Sources */,
+				370A699A2D989EFD00E3F49A /* usercreate.swift in Sources */,
+				370A69A02D98A68500E3F49A /* Catergories.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

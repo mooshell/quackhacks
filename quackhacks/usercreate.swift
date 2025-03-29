@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+class Register {
+    var name = ""
+    var username = ""
+    var password = ""
+    
+    init(name: String, username: String, password:  String) {
+        self.name = name
+        self.username = username
+        self.password = password
+        
+    }
+}
+

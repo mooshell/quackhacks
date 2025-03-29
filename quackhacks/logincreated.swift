@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct logincreated: View {
+    @State var name : String
+    @State var username: String
+    @State var password : String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Register as a New User")
     }
 }
 
 #Preview {
-    logincreated()
+    logincreated(name: "", username: "", password: "")
 }
