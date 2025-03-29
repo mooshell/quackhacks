@@ -11,6 +11,7 @@ import MapKit
 struct map: View {
     var body: some View {
         Text("MAP LOCATION")
+        Text("LOCATE")
         Map()
             .mapStyle(.hybrid)
     }

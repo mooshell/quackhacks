@@ -12,6 +12,8 @@ struct ContentView: View {
         VStack {
             Text("Food Waste ISSUE")
             Text("MAIN PAGE")
+            Text("First Commit!")
+            
         }
         
         .padding()
