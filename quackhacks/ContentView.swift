@@ -23,6 +23,17 @@ struct ContentView: View {
                         .font(.title)
                         .foregroundColor(Color(red: 173/255, green: 32/255, blue: 3/255))
                         .fontWeight(.bold)
+                    
+                    Button("Select a Photo") {
+                        self.sourceType = .photoLibrary
+                        isImagePickerShowing = true
+                    }
+                    
+                    .sheet(isPresented: $isImagePickerShowing) {
+                        ImagePicker(selectedImage: $selectedImage,
+                                    isImagePickerShowing: $isImagePickerShowing, sourceType: self.sourceType)
+                    }
+
 
                     
                    NavigationLink(destination: usersignin()) {

@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct camera: View {
+    @State var isImagePickerShowing = false
+    @State var selectedImage: UIImage?
+    @State private var sourceType: UIImagePickerController.SourceType = .photoLibrary
+
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        
+        Button("Select a Photo") {
+            self.sourceType = .photoLibrary
+            isImagePickerShowing = true
+        }
+        
+        .sheet(isPresented: $isImagePickerShowing) {
+            ImagePicker(selectedImage: $selectedImage,
+                        isImagePickerShowing: $isImagePickerShowing, sourceType: self.sourceType)
+        }
     }
 }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260B8D872D98AA2500A8A311 /* camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B8D862D98AA2500A8A311 /* camera.swift */; };
+		260B8D892D98AA5600A8A311 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B8D882D98AA5600A8A311 /* ImagePicker.swift */; };
 		370A69982D9868D300E3F49A /* usersignin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370A69972D9868D300E3F49A /* usersignin.swift */; };
 		370A699A2D989EFD00E3F49A /* usercreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370A69992D989EFD00E3F49A /* usercreate.swift */; };
 		370A699E2D98A1B300E3F49A /* logincreated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370A699D2D98A1B300E3F49A /* logincreated.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		260B8D862D98AA2500A8A311 /* camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camera.swift; sourceTree = "<group>"; };
+		260B8D882D98AA5600A8A311 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		370A69972D9868D300E3F49A /* usersignin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usersignin.swift; sourceTree = "<group>"; };
 		370A69992D989EFD00E3F49A /* usercreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usercreate.swift; sourceTree = "<group>"; };
 		370A699D2D98A1B300E3F49A /* logincreated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logincreated.swift; sourceTree = "<group>"; };
@@ -113,6 +117,8 @@
 				370A69992D989EFD00E3F49A /* usercreate.swift */,
 				370A699D2D98A1B300E3F49A /* logincreated.swift */,
 				370A699F2D98A68500E3F49A /* Catergories.swift */,
+				260B8D862D98AA2500A8A311 /* camera.swift */,
+				260B8D882D98AA5600A8A311 /* ImagePicker.swift */,
 			);
 			path = quackhacks;
 			sourceTree = "<group>";
@@ -272,8 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				260B8D872D98AA2500A8A311 /* camera.swift in Sources */,
 				371685F32D985F980027D542 /* map.swift in Sources */,
 				371685CB2D985DAD0027D542 /* ContentView.swift in Sources */,
+				260B8D892D98AA5600A8A311 /* ImagePicker.swift in Sources */,
 				370A69982D9868D300E3F49A /* usersignin.swift in Sources */,
 				371685C92D985DAD0027D542 /* quackhacksApp.swift in Sources */,
 				370A699E2D98A1B300E3F49A /* logincreated.swift in Sources */,
