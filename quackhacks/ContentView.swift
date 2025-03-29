@@ -13,6 +13,7 @@ struct ContentView: View {
             Text("Food Waste ISSUE")
             Text("MAIN PAGE")
             Text("First Commit!")
+            Text("26 cans of water")
             
         }
         
