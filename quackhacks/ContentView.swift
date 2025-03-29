@@ -9,15 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Food Waste ISSUE")
-            Text("MAIN PAGE")
-            Text("First Commit!")
-            Text("26 cans of water")
+        NavigationStack {
+            VStack {
+                Text("Welcome to 'APP NAME'")
+                
+                Text("HELLO")
+                
+                NavigationLink(destination: usersignin()) {
+                    Text("Register or Sign In as a User")
+                }
+                .buttonStyle(.bordered)
+                .font(.title3)
+                
+                
+            }
             
+            .padding()
         }
         
-        .padding()
     }
 }
 
